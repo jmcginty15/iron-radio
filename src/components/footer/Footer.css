@@ -1,0 +1,19 @@
+.Footer {
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+}
+
+.Footer-donations {
+    margin: 5px 5px 20px 5px;
+    padding: 10px;
+    border: #e97a29 outset 2px;
+    border-radius: 5px;
+    background-color: #232938;
+    color: #dfa440;
+}
+
+.Footer-text {
+    font-size: smaller;
+    color: #232938;
+}

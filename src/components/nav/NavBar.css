@@ -1,0 +1,85 @@
+@import url('../../../node_modules/font-awesome/css/font-awesome.min.css');
+
+.NavBar {
+    background-color: black;
+    height: fit-content;
+}
+
+.NavBar-item {
+    width: fit-content;
+}
+
+.NavBar-link {
+    position: relative;
+    color: #dfa440;
+}
+
+.NavBar-link:hover {
+    cursor: pointer;
+    color: #e97a29;
+}
+
+.NavBar-link-social {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    position: relative;
+    color: #dfa440;
+}
+
+.NavBar-link-social:hover {
+    cursor: pointer;
+    color: #e97a29;
+}
+
+.NavBar-brand:hover {
+    cursor: pointer;
+}
+
+.NavBar-link::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #dfa440;
+    width: 0%;
+    transition: 0.25s;
+}
+
+.NavBar-link:hover::after {
+    width: 100%;
+}
+
+.NavBar-brand::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #dfa440;
+    transition: 0.25s;
+}
+
+.NavBar-brand:hover::after {
+    width: 100%;
+}
+
+.NavBar-icon {
+    font-size: 20px;
+}
+
+.NavBar-brand {
+    font-weight: bold;
+    position: relative;
+    color: #dfa440;
+    margin-left: 20px;
+}
+
+.NavBar-item {
+    text-align: center;
+    margin: auto;
+}
+
+#Nav {
+    background-color: black;
+}

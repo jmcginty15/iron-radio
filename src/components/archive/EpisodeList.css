@@ -1,0 +1,49 @@
+.EpisodeList {
+    margin: auto;
+    color: lightgray;
+}
+
+.EpisodeList-header {
+    border-top: #e97a29 solid 1px;
+    border-bottom: #e97a29 solid 1px;
+    padding-top: 10px;
+}
+
+.EpisodeList-footer {
+    border-top: #e97a29 solid 1px;
+    padding-top: 10px;
+}
+
+.EpisodeList-header, .EpisodeList-footer {
+    text-align: center;
+    color: #dfa440;
+    padding-bottom: 10px;
+}
+
+.EpisodeList-nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+.EpisodeList-num {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+.EpisodeList-nums {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.EpisodeList-nav:hover, .EpisodeList-num:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.EpisodeList-current {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bolder;
+}

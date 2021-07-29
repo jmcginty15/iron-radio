@@ -1,0 +1,84 @@
+.Archive {
+    background-color: #151c26;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Archive-title {
+    color: #dfa440;
+    margin-bottom: 40px;
+}
+
+.Archive-subtitle {
+    color: #dfa440;
+    margin-top: 20px;
+}
+
+.Archive-container {
+    display: grid;
+}
+
+@media (min-width: 768px) {
+    .Archive-container {
+        grid-template-columns: 60% 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Archive-container {
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+}
+
+.Archive-player-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Archive-list-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #e97a29 outset 2px;
+    border-radius: 5px;
+    background-color: #232938;
+    padding-top: 10px;
+}
+
+.Archive-button {
+    background-color: #dfa440;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+    color: #151c26;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.Archive-search {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+}
+
+.Archive-page-count {
+    margin-bottom: 10px;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+}
+
+.Archive-controls {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    border-bottom: #e97a29 solid 1px;
+}
+
+.Archive-search-label {
+    color: #dfa440;
+    margin-bottom: 5px;
+    display: inline;
+}

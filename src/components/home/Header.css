@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 800px) {
+    .Header {
+        height: fit-content;
+        max-height: 300px;
+    }
+}
+
+@media (min-width: 800px) {
+    .Header {
+        height: 300px;
+    }
+}
+
+.Header-banner-image {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.Home {
+    background-color: #151c26;
+    color: lightgray;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.Home-title {
+    color: #dfa440;
+}
+
+.Home-info {
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+#Home-email {
+    color: #dfa440;
+}
+
+.Home-body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #151c26;
+    border-top: black solid 5px;
+}
+
+.Home-audio {
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .Home-info {
+        width: 90%;
+    }
+
+    .Home-audio {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) {
+    .Home-info {
+        width: 75%;
+    }
+
+    .Home-audio {
+        width: 50%;
+    }
+}

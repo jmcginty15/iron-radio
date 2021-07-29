@@ -1,0 +1,31 @@
+.EpisodeCard {
+    text-align: left;
+    border-top: #e97a29 solid 1px;
+    border-bottom: #e97a29 solid 1px;
+    padding: 10px;
+}
+
+.EpisodeCard-container, .EpisodeCard-footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+}
+
+.EpisodeCard-title {
+    color: #dfa440;
+}
+
+.EpisodeCard-subtitle {
+    color: #e97a29;
+}
+
+.EpisodeCard-play {
+    margin-top: 5px;
+}
+
+.EpisodeCard-button {
+    background-color: #dfa440;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+    color: #151c26;
+}
