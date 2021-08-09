@@ -9,18 +9,22 @@ class RssFeed {
     static addToFeed(filename, episodeNum, guests, topic, description, length) {
         const guestTitle = guests.indexOf(',') === -1 && guests.indexOf('and') === -1 && guests.indexOf('&') === -1 ? 'Guest' : 'Guests';
         const xmlGuests = guests ? `${guestTitle} ${guests} ` : ''; 
-        const pubDate = new Date();
+        const pubDate = parseDate(new Date());
         const episode = `<item>
             <title>Episode ${episodeNum} IronRadio - ${xmlGuests}Topic ${topic}</title>
             <description>${description}</description>
-            <pubDate>${parseDate(pubDate)}</pubDate>
+            <pubDate>${pubDate}</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://www.ironradio.org/audio/${filename}" length="${length}" type="audio/mpeg" />
         </item>\n\t\t`;
 
         let file = fs.readFileSync('./rss.xml', 'utf-8');
+        const pubDateStartIndex = file.indexOf('<pubDate>') + 9;
+        const pubDateEndIndex = file.indexOf('</pubDate>');
+        const lastBuildDateStartIndex = file.indexOf('<lastBuildDate>') + 15;
+        const lastBuildDateEndIndex = file.indexOf('</lastBuildDate>');
         const itemIndex = file.indexOf('<item>');
-        file = `${file.slice(0, itemIndex)}${episode}${file.slice(itemIndex)}`;
+        file = `${file.slice(0, pubDateStartIndex)}${pubDate}${file.slice(pubDateEndIndex, lastBuildDateStartIndex)}${pubDate}${file.slice(lastBuildDateEndIndex, itemIndex)}${episode}${file.slice(itemIndex)}`;
         fs.writeFileSync('./rss.xml', file);
     }
 }
