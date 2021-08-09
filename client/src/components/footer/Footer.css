@@ -17,3 +17,24 @@
     font-size: smaller;
     color: #232938;
 }
+
+.Footer-svg {
+    fill: #dfa440;
+}
+
+.Footer-svg:hover {
+    cursor: pointer;
+    fill: #e97a29;
+}
+
+.Footer-link {
+    color: #dfa440;
+}
+
+.Footer-donations-link {
+    color: white;
+}
+
+.Footer-link:hover, .Footer-donations-link:hover {
+    color: #e97a29;
+}
