@@ -7,7 +7,7 @@
         <generator>Self-edited feed </generator>
         <link>https://www.ironradio.org</link>
         <language>en</language>
-        <copyright>Copyright 2009-2021 Lonnie Lowery, NEW Associates, LLC</copyright>
+        <copyright>Copyright 2009-2021 Phil Stevens, NEW Associates, LLC</copyright>
         <description>An audio library and podcast site for bodybuilding, sports nutrition, powerlifting, athletes and coaches.</description>
         <image>
             <link>https://www.ironradio.org</link>
@@ -15,12 +15,12 @@
             <description>Iron Radio</description>
             <title>Iron Radio</title>
         </image>
-        <itunes:author>Lowery, Fortney, Stevens, Nelson</itunes:author>
+        <itunes:author>Fortney, Stevens, Nelson</itunes:author>
         <itunes:image href="https://www.ironradio.org/images/1400x1400_Banner2_IronRadio.jpg" />
         <itunes:summary>Iron Radio is a science-based talk show and podcast about the nutrition, training, coaching, health, and psychology of strength sports like bodybuilding and powerlifting. Each week we interview experts and discuss a topic. Look for our Podcast in the iTunes Music Store</itunes:summary>
         <itunes:subtitle>A talk show about nutrition, bodybuilding, powerlifting, coaching and strength sports</itunes:subtitle>
         <itunes:owner>
-            <itunes:name>Lonnie Lowery</itunes:name>
+            <itunes:name>Phil Stevens</itunes:name>
             <itunes:email>Lonman7@hotmail.com</itunes:email>
         </itunes:owner>
         <itunes:category text="Health &amp; Fitness"></itunes:category>
