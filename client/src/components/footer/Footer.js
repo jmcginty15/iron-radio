@@ -21,10 +21,17 @@ const Footer = () => {
                 Radio <i class="fa fa-copyright" aria-hidden="true" /> and Nutrition Radio <i class="fa fa-copyright" aria-hidden="true" /> icons
                 and links to free audio content is free for use on other Internet sites, provided the audio or
                 icon is not altered in any way, and we have the requester's email on file. Content is roughly
-                PG-13 in nature.</p>
+                PG-13 in nature.
+            </p>
             <p className="Footer-text">
-                Ethical Note: Our mission is to provide free athletic education to all
-                those who recognize a connection between knowledge, health, and performance, especially in strength sports like bodybuilding, powerlifting, and weightlifting. We strive to clearly indicate which parts of the sites are ads and to make sure our podcast guests know our stance in advance. Visitors are under no obligation to patronize ANY entity shown on this site. Beyond site maintenance, a portion of all advertising or donation dollars will go to charitable causes, including student and athlete travel support.</p>
+                Ethical Note: Our mission is to provide free athletic education to all those who recognize a
+                connection between knowledge, health, and performance, especially in strength sports like
+                bodybuilding, powerlifting, and weightlifting. We strive to clearly indicate which parts of the
+                sites are ads and to make sure our podcast guests know our stance in advance. Visitors are
+                under no obligation to patronize ANY entity shown on this site. Beyond site maintenance, a
+                portion of all advertising or donation dollars will go to charitable causes, including student
+                and athlete travel support.
+            </p>
             <p className="Footer-text">
                 <svg className="Footer-svg" onClick={() => followLink("https://jasonmcginty.surge.sh/", true)} version="1.0" xmlns="http://www.w3.org/2000/svg" width="40px" height="20px" fill="#dfa440" viewBox="0 0 11117.000000 6458.000000" preserveAspectRatio="xMidYMid meet">
                     <g transform="translate(0.000000,6458.000000) scale(0.100000,-0.100000)" stroke="none">
