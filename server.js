@@ -4,8 +4,9 @@ const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const audioRoutes = require('./routes/audioRoutes');
 const imageRoutes = require('./routes/imageRoutes');
+const authRoutes = require('./routes/authRoutes');
 
-const CLIENT_ROUTES = ['/archive', '/about'];
+const CLIENT_ROUTES = ['/archive', '/about', '/backend'];
 app.use((req, res, next) => {
     if (CLIENT_ROUTES.includes(req.path)) {
         res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
@@ -17,10 +18,12 @@ app.use((req, res, next) => {
     }
 });
 
+app.use(express.json());
 app.use(express.static(path.join(__dirname, './client/build')));
 app.use('/api', apiRoutes);
 app.use('/audio', audioRoutes);
 app.use('/images', imageRoutes);
+app.use('/auth', authRoutes);
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {

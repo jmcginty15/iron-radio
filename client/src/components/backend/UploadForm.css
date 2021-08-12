@@ -1,0 +1,80 @@
+.UploadForm {
+    margin: auto;
+    border: #e97a29 outset 2px;
+    border-radius: 5px;
+    background-color: #232938;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: lightgray;
+    width: fit-content;
+}
+
+#UploadForm-check {
+    color: green;
+    font-size: larger;
+}
+
+.UploadForm-title {
+    color: #dfa440;
+}
+
+#UploadForm-input-number {
+    width: 65px;
+}
+
+.UploadForm-input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#UploadForm-input-bottom {
+    margin-bottom: 15px;
+}
+
+.UploadForm-label {
+    float: left;
+    margin-top: 5px;
+    color: #dfa440;
+}
+
+.UploadForm-form {
+    text-align: left;
+}
+
+.UploadForm-logout, .UploadForm-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    background-color: #dfa440;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+    color: #151c26;
+}
+
+.UploadForm-button-inactive {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    background-color: grey;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+    color: black;
+}
+
+.UploadForm-button-inactive:hover {
+    cursor: default;
+}
+
+.UploadForm-detail {
+    font-size: smaller;
+    color: #e97a29;
+}

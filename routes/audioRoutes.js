@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const multer = require('multer');
 const RssFeed = require('../rss');
+const ensureLoggedIn = require('../middleware/auth');
 const router = new express.Router();
 
 router.get('/:file', (req, res, next) => {
@@ -29,15 +30,33 @@ const upload = multer({
             return cb(new Error('Only .mp3 files allowed'));
         }
     }
-})
+}).single('audio');
 
-router.post('/upload', upload.single('audio'), (req, res, next) => {
+router.post('/upload', (req, res, next) => {
     try {
-        const { episodeNum, guests, topic, description } = req.body;
-        const { filename, size } = req.file;
-        const fileExists = RssFeed.findFile(filename);
-        if (!fileExists) RssFeed.addToFeed(filename, episodeNum, guests, topic, description, size);
-        return res.json(fileExists);
+        upload(req, res, (err) => {
+            const { filename, size } = req.file;
+            if (err) return next(err);
+            return res.json({
+                message: 'success',
+                filename: filename,
+                length: size
+            });
+        })
+    } catch (err) {
+        return next(err);
+    }
+});
+
+router.post('/add-to-rss', ensureLoggedIn, (req, res, next) => {
+    try {
+        const { episodeNum, guests, topic, description, filename, length } = req.body;
+        const alreadyExists = RssFeed.findFile(filename);
+        if (!alreadyExists) {
+            RssFeed.addToFeed(filename, episodeNum, guests, topic, description, length);
+            return res.json({ message: 'success' });
+        }
+        return res.json({ message: 'episode already exists' });
     } catch (err) {
         return next(err);
     }

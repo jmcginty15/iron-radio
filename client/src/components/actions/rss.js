@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { RSS_URL } from './config';
+import { BASE_URL } from './config';
 
 export const REFRESH_RSS = 'REFRESH_RSS';
 
@@ -15,7 +15,7 @@ const gotRss = (rss) => {
 export const refreshRss = () => {
     return async function (dispatch) {
         try {
-            const res = await axios.get(RSS_URL);
+            const res = await axios.get(`${BASE_URL}/api/rss`);
             dispatch(gotRss(res.data));
         } catch (err) {
             console.log(err);

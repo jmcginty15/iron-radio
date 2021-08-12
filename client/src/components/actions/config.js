@@ -1,3 +1,3 @@
-const RSS_URL = `${window.location.origin}/api/rss`;
+const BASE_URL = `${window.location.origin}`;
 
-module.exports = { RSS_URL };
+module.exports = { BASE_URL };

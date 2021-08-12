@@ -1,0 +1,29 @@
+.UploadSuccessful {
+    margin: auto;
+    border: #e97a29 outset 2px;
+    border-radius: 5px;
+    background-color: #232938;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: lightgray;
+    width: fit-content;
+}
+
+.UploadSuccessful-title {
+    color: #dfa440;
+}
+
+.UploadSuccessful-button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    background-color: #dfa440;
+    border: #151c26 outset 2px;
+    border-radius: 5px;
+    color: #151c26;
+}

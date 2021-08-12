@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Archive from './components/archive/Archive';
 import Footer from './components/footer/Footer';
+import Backend from './components/backend/Backend';
 import './App.css';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/backend">
+            <Backend />
           </Route>
           <Redirect to="/" />
         </Switch>
