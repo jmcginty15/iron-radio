@@ -16,6 +16,7 @@ class RssFeed {
             <pubDate>${pubDate}</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://www.ironradio.org/audio/${filename}" length="${length}" type="audio/mpeg" />
+            <guid>Episode${episodeNum}</guid>
         </item>\n\t\t`;
 
         let file = fs.readFileSync('./rss.xml', 'utf-8');

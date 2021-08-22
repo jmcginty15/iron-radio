@@ -1,28 +1,22 @@
 const express = require('express');
-const fs = require('fs');
 const multer = require('multer');
 const RssFeed = require('../rss');
 const ensureLoggedIn = require('../middleware/auth');
+const Audio = require('../models/audio');
 const router = new express.Router();
 
-router.get('/:file', (req, res, next) => {
+router.get('/:file', async (req, res, next) => {
     try {
         const { file } = req.params;
-        let path = `${__dirname}/audio/${file}`;
-        if (!fs.existsSync(path)) path = `E:\\iron-radio-audio/${file}`;
-        res.sendFile(path);
+        const fileStream = await Audio.getFromBlobStorage(file);
+        return fileStream.pipe(res);
     } catch (err) {
         return next(err);
     }
 });
 
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => cb(null, './audio/'),
-    filename: (req, file, cb) => cb(null, file.originalname.split(' ').join('-'))
-});
-
 const upload = multer({
-    storage: storage,
+    storage: multer.memoryStorage(),
     fileFilter: (req, file, cb) => {
         if (file.mimetype === 'audio/mpeg') cb(null, true);
         else {
@@ -30,19 +24,17 @@ const upload = multer({
             return cb(new Error('Only .mp3 files allowed'));
         }
     }
-}).single('audio');
+});
 
-router.post('/upload', (req, res, next) => {
+router.post('/upload', upload.single('audio'), async (req, res, next) => {
     try {
-        upload(req, res, (err) => {
-            const { filename, size } = req.file;
-            if (err) return next(err);
-            return res.json({
-                message: 'success',
-                filename: filename,
-                length: size
-            });
-        })
+        const { originalname, size } = req.file;
+        await Audio.uploadToBlobStorage(req.file);
+        return res.json({
+            message: 'success',
+            filename: originalname,
+            length: size
+        });
     } catch (err) {
         return next(err);
     }

@@ -15,7 +15,7 @@
     text-align: left;
 }
 
-#Home-email {
+.Home-email {
     color: #dfa440;
 }
 
@@ -48,4 +48,12 @@
     .Home-audio {
         width: 50%;
     }
+}
+
+.Home-link {
+    color: white;
+}
+
+.Home-link:hover {
+    color: #e97a29;
 }

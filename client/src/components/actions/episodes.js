@@ -36,14 +36,15 @@ const uploaded = (filename, length) => {
 export const upload = (file) => {
     return async function (dispatch) {
         try {
-            const formData = new FormData();
-            formData.append('audio', file);
-            const res = await axios.post(`${BASE_URL}/audio/upload`, formData, {
-                headers: {
-                    'Content-Type': 'multipart/form-data'
-                }
-            });
-            dispatch(uploaded(res.data.filename, res.data.length));
+            console.log(file);
+            // const formData = new FormData();
+            // formData.append('audio', file);
+            // const res = await axios.post(`${BASE_URL}/audio/upload`, formData, {
+            //     headers: {
+            //         'Content-Type': 'multipart/form-data'
+            //     }
+            // });
+            // dispatch(uploaded(res.data.filename, res.data.length));
         } catch (err) {
             console.log(err);
         }

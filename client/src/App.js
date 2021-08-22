@@ -22,9 +22,9 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/backend">
+          {/* <Route exact path="/backend">
             <Backend />
-          </Route>
+          </Route> */}
           <Redirect to="/" />
         </Switch>
         <Footer />

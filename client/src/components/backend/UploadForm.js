@@ -22,6 +22,7 @@ const UploadForm = () => {
     });
     const [file, setFile] = useState(null);
     const [success, setSuccess] = useState(false);
+    const [uploading, setUploading] = useState(false);
 
     useEffect(() => {
         if (file) dispatch(upload(file));
@@ -30,8 +31,10 @@ const UploadForm = () => {
     const handleChange = (evt) => setFormData({ ...formData, [evt.target.name]: evt.target.value });
     const handleFileChange = (evt) => {
         const fileList = evt.target.files;
-        if (fileList.length) setFile(fileList[0]);
-        else {
+        if (fileList.length) {
+            setFile(fileList[0]);
+            setUploading(true);
+        } else {
             setFile(null);
             dispatch(clearUploaded());
         }
@@ -60,7 +63,7 @@ const UploadForm = () => {
             <form className="UploadForm-form" onSubmit={handleSubmit}>
                 <label className="UploadForm-label" htmlFor="episodeNum">Episode number:</label>&emsp;
                 <input id="UploadForm-input-number" className="UploadForm-input" type="number" min="1" name="episodeNum" value={formData.episodeNum} onChange={handleChange} /><br />
-                <label className="UploadForm-label" htmlFor="file">File:</label>&emsp;{uploaded && <i id="UploadForm-check" className="fa fa-check-circle" aria-hidden="true" />}
+                <label className="UploadForm-label" htmlFor="file">File:</label>&emsp;{uploaded && <i id="UploadForm-check" className="fa fa-check-circle" aria-hidden="true" />}{uploading && !uploaded && <div class="lds-dual-ring" />}
                 <input className="UploadForm-input" type="file" onChange={handleFileChange} /> <br />
                 <label className="UploadForm-label" htmlFor="guests">Guests:<br /><span className="UploadForm-detail"><em>comma-separated list, or leave empty if no guests</em></span></label><br />
                 <input className="UploadForm-input" type="text" name="guests" placeholder="Guest1, Guest2, Guest3, ..." value={formData.guests} onChange={handleChange} />
