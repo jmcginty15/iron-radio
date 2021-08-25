@@ -16,12 +16,12 @@ const Footer = () => {
             </div>
             <p className="Footer-text">
                 Unless specifically stated, contents <i className="fa fa-copyright" aria-hidden="true" /> copyright
-                N.E.W. Associates, Inc. 2001-2021. Site maintained by Phil Stevens exclusively as President of
-                N.E.W. Associates. All content is for informational purposes only. Use of the Iron
-                Radio <i className="fa fa-copyright" aria-hidden="true" /> and Nutrition Radio <i className="fa fa-copyright" aria-hidden="true" /> icons
-                and links to free audio content is free for use on other Internet sites, provided the audio or
-                icon is not altered in any way, and we have the requester's email on file. Content is roughly
-                PG-13 in nature.
+                Phil Stevens 2001-2021. Site maintained by Phil Stevens exclusively. All content is for
+                informational purposes only. Use of the Iron Radio <i className="fa fa-copyright" aria-hidden="true" /> and
+                Nutrition Radio <i className="fa fa-copyright" aria-hidden="true" /> icons and links to free
+                audio content is free for use on other Internet sites, provided the audio or icon is not
+                altered in any way, and we have the requester's email on file. Content is roughly PG-13 in
+                nature.
             </p>
             <p className="Footer-text">
                 Ethical Note: Our mission is to provide free athletic education to all those who recognize a

@@ -9,6 +9,24 @@ router.get('/:file', async (req, res, next) => {
     try {
         const { file } = req.params;
         const fileStream = await Audio.getFromBlobStorage(file);
+
+        const range = req.headers.range;
+        const parts = range.replace(/bytes=/, '').split('-');
+        const partialStart = parts[0];
+        const partialEnd = parts[1];
+
+        const start = parseInt(partialStart, 10);
+        const end = partialEnd ? parseInt(partialEnd, 10) : fileStream.end
+        const total = fileStream.end + 1;
+        const chunksize = (end - start) + 1;
+        fileStream.end = end;
+        fileStream.start = start;
+
+        res.writeHead(206, {
+            'Content-Range': `bytes ${start}-${end}/${total}`,
+            'Accept-Ranges': 'bytes', 'Content-Length': chunksize,
+            'Content-Type': 'audio/mpeg'
+        });
         return fileStream.pipe(res);
     } catch (err) {
         return next(err);
