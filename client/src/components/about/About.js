@@ -14,7 +14,7 @@ const contributors = [
     // },
     {
         name: 'Phil Stevens',
-        bio: `Phil Stevens is a successful competitive powerlifter and strongman and holder of multiple national powerlifting titles. Phil can bounce back from injuries with healing powers like the comic book hero Wolverine and has an iron will befitting a war-scarred veteran of the strength game. Check out his Topeka, Kansas gym at <a ${inlineStyle} href="https://www.t-nation.com/" target="_blank">strengthguild.com</a>.`,
+        bio: `Phil Stevens is a successful competitive powerlifter and strongman and holder of multiple national powerlifting titles. Phil can bounce back from injuries with healing powers like the comic book hero Wolverine and has an iron will befitting a war-scarred veteran of the strength game. Check out his Topeka, Kansas gym at <a ${inlineStyle} href="https://strengthguild.com/" target="_blank">strengthguild.com</a>.`,
         photos: [
             { src: 'Phil_squat.jpg', alt: 'phil-1' },
             { src: 'phil-stevens.jpg', alt: 'phil-2' },
