@@ -27,9 +27,8 @@ const Home = () => {
                     is to preserve a ton of highly-rated podcast and mp3 content and allow it to be
                     distributed for the benefit of the fitness, nutrition, power sport, and
                     bodybuilding public. It's mildly entertaining, fairly educational, and best of
-                    all, the audio and video are totally FREE. Email us at <span className="Home-email">robertfortney@hotmail.com</span> or&nbsp;
-                    <span className="Home-email">stvnsp@hotmail.com</span> with questions for the show or to
-                    ask about being a guest!
+                    all, the audio and video are totally FREE. Email Phil at <span className="Home-email">stvnsp@hotmail.com</span> with
+                    questions for the show or to ask about being a guest!
                 </p>
                 <h3 className="Home-title">Latest episode:</h3>
                 <h6 className="Home-title"><em>(See more episodes on the <a className="Home-link" href="/archive">Archive</a> page)</em></h6>

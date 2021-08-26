@@ -21,15 +21,15 @@ const contributors = [
             { src: 'philpose3.jpg', alt: 'phil-3' }
         ]
     },
-    {
-        name: 'Rob "Fortress" Fortney',
-        bio: `Fortress is a former competitive bodybuilder AND powerlifter (still competing), as well as a journalist and former editor at some of the most influential publications in the business. His credits include editorial roles at mags like Muscle Mag International, Peak Training Journal, and others, as well as editorial or writer roles a number of internet publications from Virtual Muscle to <a ${inlineStyle} href="https://www.t-nation.com/" target="_blank">t-nation.com</a>. You've probably read his stuff, whether he was a credited author or ghost writer. Rob has been co-hosting Experiments vs. Experience, underwritten by various web sites, with Lonnie, since pre-podcasting days. Rob is dangerously close to a 700-lb natural squat (success at 665 in second photo below).`,
-        photos: [
-            { src: 'rob_bench405.gif', alt: 'rob-1' },
-            { src: 'rob gets 665.gif', alt: 'rob-2' },
-            { src: 'rob chmpns day_300dpi.jpg', alt: 'rob-3' }
-        ]
-    },
+    // {
+    //     name: 'Rob "Fortress" Fortney',
+    //     bio: `Fortress is a former competitive bodybuilder AND powerlifter (still competing), as well as a journalist and former editor at some of the most influential publications in the business. His credits include editorial roles at mags like Muscle Mag International, Peak Training Journal, and others, as well as editorial or writer roles a number of internet publications from Virtual Muscle to <a ${inlineStyle} href="https://www.t-nation.com/" target="_blank">t-nation.com</a>. You've probably read his stuff, whether he was a credited author or ghost writer. Rob has been co-hosting Experiments vs. Experience, underwritten by various web sites, with Lonnie, since pre-podcasting days. Rob is dangerously close to a 700-lb natural squat (success at 665 in second photo below).`,
+    //     photos: [
+    //         { src: 'rob_bench405.gif', alt: 'rob-1' },
+    //         { src: 'rob gets 665.gif', alt: 'rob-2' },
+    //         { src: 'rob chmpns day_300dpi.jpg', alt: 'rob-3' }
+    //     ]
+    // },
     {
         name: 'Mike T. Nelson',
         bio: `Dr. Mike T. Nelson has an impressive background in both engineering and exercise physiology. His research background, multiple certifications, broad professional network, and wide-reaching business efforts help educate the strength training public. Mike also competes in a variety of strength competitions including grip contests.`,

@@ -2,12 +2,12 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Iron Radio</title>
-        <pubDate>Sun, 15 Aug 2021 07:00:00 +0000</pubDate>
-        <lastBuildDate>Sun, 15 Aug 2021 07:00:00 +0000</lastBuildDate>
+        <pubDate>Sun, 22 Aug 2021 07:00:00 +0000</pubDate>
+        <lastBuildDate>Sun, 22 Aug 2021 07:00:00 +0000</lastBuildDate>
         <generator>Self-edited feed </generator>
         <link>https://www.ironradio.org</link>
         <language>en</language>
-        <copyright>Copyright 2009-2021 Phil Stevens, NEW Associates, LLC</copyright>
+        <copyright>Copyright 2009-2021 Phil Stevens</copyright>
         <description>An audio library and podcast site for bodybuilding, sports nutrition, powerlifting, athletes and coaches.</description>
         <image>
             <link>https://www.ironradio.org</link>
@@ -34,6 +34,15 @@
             <itunes:category text="Nutrition" />
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
+        <item>
+            <title>Episode 640 IronRadio - Topic Warm-ups and Cool-downs Revisited</title>
+            <description> After discussing some muscle industry news, the guys revisit the topics of whole-body vs. body part-specific warm ups - and cool downs to enhance recovery from intense sessions.
+Note that Dr. Lowery's involvement with the podcast ends this month (8/2021) but his YouTube channel will continue to host the legacy material through episode 640. (Watch for different YouTube links to the newer, likely more raw version of the show!) </description>
+            <pubDate>Sun, 22 Aug 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://www.ironradio.org/audio/640IronRadio_Warmups_Cooldowns_Revisited.mp3" length="72253484" type="audio/mpeg" />
+            <guid>Episode640</guid>
+        </item>
         <item>
             <title>Episode 639 IronRadio - Topic Favorite Videos, Phil Q-and-A</title>
             <description> Caution, this one is almost certainly not for kids after the break, in the Coach Stevens portion. The guys first touch on science news news connecting personality and food choices, then discuss favorite videos, TV, and movies related to muscle sports. After the the break, there's an on-site recorded question-and-answer session on powerlifting and bodybuilding that Coach Stevens held in Montana. The usual warning about language likely holds here, as it was recorded with a live audience of lifters. Lastly, remember to watch the existing You Tube channel and www.IronRadio.org for ways to continue following Iron Radio as Phil and Mike modernize it and keep it going strong! </description>
