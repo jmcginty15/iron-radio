@@ -15,7 +15,7 @@
             <description>Iron Radio</description>
             <title>Iron Radio</title>
         </image>
-        <itunes:author>Fortney, Stevens, Nelson</itunes:author>
+        <itunes:author>Stevens, Nelson</itunes:author>
         <itunes:image href="https://www.ironradio.org/images/1400x1400_Banner2_IronRadio.jpg" />
         <itunes:summary>Iron Radio is a science-based talk show and podcast about the nutrition, training, coaching, health, and psychology of strength sports like bodybuilding and powerlifting. Each week we interview experts and discuss a topic. Look for our Podcast in the iTunes Music Store</itunes:summary>
         <itunes:subtitle>A talk show about nutrition, bodybuilding, powerlifting, coaching and strength sports</itunes:subtitle>
@@ -34,6 +34,30 @@
             <itunes:category text="Nutrition" />
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
+        <item>
+            <title>Episode 643 IronRadio</title>
+            <description> </description>
+            <pubDate>Sun, 18 Sep 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://www.ironradio.org/audio/643IronRadio.mp3" length="40379980" type="audio/mpeg" />
+            <guid>Episode643</guid>
+        </item>
+        <item>
+            <title>Episode 642 IronRadio</title>
+            <description> </description>
+            <pubDate>Sun, 11 Sep 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://www.ironradio.org/audio/642IronRadio.mp3" length="21032179" type="audio/mpeg" />
+            <guid>Episode642</guid>
+        </item>
+        <item>
+            <title>Episode 641 IronRadio</title>
+            <description> </description>
+            <pubDate>Sun, 04 Sep 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://www.ironradio.org/audio/641IronRadio.mp3" length="23878627" type="audio/mpeg" />
+            <guid>Episode641</guid>
+        </item>
         <item>
             <title>Episode 640 IronRadio - Topic Warm-ups and Cool-downs Revisited</title>
             <description> After discussing some muscle industry news, the guys revisit the topics of whole-body vs. body part-specific warm ups - and cool downs to enhance recovery from intense sessions.
