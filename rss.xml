@@ -35,9 +35,17 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 645 IronRadio - Topic Overeating Protein, Lifting 800 Pounds, PRs and Training Maturity</title>
+            <description> The guys talk about overeating protein and its conversion to fat. Lifting 800lbs, Maturity in training. When to go for PR’s. When to walk away. </description>
+            <pubDate>Sat, 09 Oct 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://www.ironradio.org/audio/645IronRadio.mp3" length="8278628" type="audio/mpeg" />
+            <guid>Episode645</guid>
+        </item>
+        <item>
             <title>Episode 644 IronRadio - Topic Arnold Classic 2021, Home Training vs Gym Training</title>
             <description> The first real week of Iron Radio unplugged and unedited. The guys talk about the Arnold Classic results. NAC potentially being banned. The 2021 show down meet and all the ATWR broken. The differences of training at a facility vs at home and more... </description>
-            <pubDate>Sun, 02 Oct 2021 07:00:00 +0000</pubDate>
+            <pubDate>Sat, 02 Oct 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://www.ironradio.org/audio/644IronRadio.mp3" length="9029552" type="audio/mpeg" />
             <guid>Episode644</guid>
@@ -45,7 +53,7 @@
         <item>
             <title>Episode 643 IronRadio</title>
             <description> </description>
-            <pubDate>Sun, 18 Sep 2021 07:00:00 +0000</pubDate>
+            <pubDate>Sat, 18 Sep 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://www.ironradio.org/audio/643IronRadio.mp3" length="40379980" type="audio/mpeg" />
             <guid>Episode643</guid>
@@ -53,7 +61,7 @@
         <item>
             <title>Episode 642 IronRadio</title>
             <description> </description>
-            <pubDate>Sun, 11 Sep 2021 07:00:00 +0000</pubDate>
+            <pubDate>Sat, 11 Sep 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://www.ironradio.org/audio/642IronRadio.mp3" length="21032179" type="audio/mpeg" />
             <guid>Episode642</guid>
@@ -61,7 +69,7 @@
         <item>
             <title>Episode 641 IronRadio</title>
             <description> </description>
-            <pubDate>Sun, 04 Sep 2021 07:00:00 +0000</pubDate>
+            <pubDate>Sat, 04 Sep 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://www.ironradio.org/audio/641IronRadio.mp3" length="23878627" type="audio/mpeg" />
             <guid>Episode641</guid>
