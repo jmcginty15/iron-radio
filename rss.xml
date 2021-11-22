@@ -35,6 +35,30 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 650 IronRadio - Topic Phil's Meet, Proteing and DNA, Holiday Training and Eating</title>
+            <description> Phil's meet recap. Protein intake and DNA damage. Dealing with training and eating during the holidays. </description>
+            <pubDate>Sat, 20 Nov 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/650IronRadio.mp3" length="9934052" type="audio/mpeg" />
+            <guid>Episode650</guid>
+        </item>
+        <item>
+            <title>Episode 649 IronRadio - Topic Rogue Invitational Finals, Weightlifting Pan Ams, Phil's Meet Prep</title>
+            <description> Coach J and Phil talk about the Rogue Invitational finals and weightlifting Pan Ams. Talk about Phil's upcoming meet, how he prepped for it, and more. </description>
+            <pubDate>Sat, 06 Nov 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/649IronRadio.mp3" length="8578220" type="audio/mpeg" />
+            <guid>Episode649</guid>
+        </item>
+        <item>
+            <title>Episode 648 IronRadio - Topic Special Olympics, The Triad, Rogue Invitational Strongman, Protein</title>
+            <description> On this week's episode Dr. Mike, Coach J, and Phil talk a little about a recap of the Special Olympics meet Phil coached at. The Triad, a meet Phil was introduced to by Matt Vincent. Protein intake does not reduce muscle loss when immobilized. A peek into the Rogue Invitational adding in strongman and the possibility of other events coming like this. </description>
+            <pubDate>Sat, 30 Oct 2021 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/648IronRadio.mp3" length="9333896" type="audio/mpeg" />
+            <guid>Episode648</guid>
+        </item>
+        <item>
             <title>Episode 647 IronRadio - Topic Pros and Cons of Licensing</title>
             <description> This week the guys hit some news and then talk shop on the benefits and negatives to training professions being a licensed practice, not that they ever will. </description>
             <pubDate>Sat, 23 Oct 2021 07:00:00 +0000</pubDate>
