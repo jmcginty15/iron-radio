@@ -35,6 +35,14 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 655 IronRadio - Topic Resolutions, Goals, and Hot Topics for 2022</title>
+            <description> On this episode of Iron Radio, Phil and Dr. Mike cover New Year's resolutions, goals and what's going to be hot in 2022. </description>
+            <pubDate>Sat, 08 Jan 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/655IronRadio.mp3" length="11206292" type="audio/mpeg" />
+            <guid>Episode655</guid>
+        </item>
+        <item>
             <title>Episode 654 IronRadio - Topic Olympic Weightlifting and Special Kinds of People</title>
             <description> On this week's episode Dr. Mike and Phil talk about weightlifting and boxing potentially being out of the Olympics. Then they fall down the rabbit hole on that topic and talk about the special person it takes to concentrate for 10 years on two lifts, training alone and more. </description>
             <pubDate>Sat, 18 Dec 2021 07:00:00 +0000</pubDate>
