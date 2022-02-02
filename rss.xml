@@ -35,6 +35,22 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 657 IronRadio - Topic Quarantine, Licking Frogs, and the Olympics</title>
+            <description> On Iron Radio this week we cover forced quarantine, licking poisonous frogs, an "all the drugs" Olympics and much more. </description>
+            <pubDate>Sat, 22 Jan 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/657IronRadio.mp3" length="11928812" type="audio/mpeg" />
+            <guid>Episode657</guid>
+        </item>
+        <item>
+            <title>Episode 656 IronRadio - Topic Jerell and Phil</title>
+            <description> On this episode of Iron Radio, Jerell and Phil take the helm while Mike is out licking frogs. The guys catch up on the upcoming Arnold, weightlifting updates, crossfit drama and much more. </description>
+            <pubDate>Sat, 15 Jan 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/656IronRadio.mp3" length="8700692" type="audio/mpeg" />
+            <guid>Episode656</guid>
+        </item>
+        <item>
             <title>Episode 655 IronRadio - Topic Resolutions, Goals, and Hot Topics for 2022</title>
             <description> On this episode of Iron Radio, Phil and Dr. Mike cover New Year's resolutions, goals and what's going to be hot in 2022. </description>
             <pubDate>Sat, 08 Jan 2022 07:00:00 +0000</pubDate>
