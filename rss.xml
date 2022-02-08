@@ -35,6 +35,14 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 658 IronRadio - Topic Coaching and Running a Gym</title>
+            <description> On this episode of Iron Radio the guys talk about coaching and running a gym in today's world and expand from there. </description>
+            <pubDate>Sat, 05 Feb 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/658IronRadio.mp3" length="10318316" type="audio/mpeg" />
+            <guid>Episode658</guid>
+        </item>
+        <item>
             <title>Episode 657 IronRadio - Topic Quarantine, Licking Frogs, and the Olympics</title>
             <description> On Iron Radio this week we cover forced quarantine, licking poisonous frogs, an "all the drugs" Olympics and much more. </description>
             <pubDate>Sat, 22 Jan 2022 07:00:00 +0000</pubDate>
