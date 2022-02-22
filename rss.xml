@@ -35,6 +35,22 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 660 IronRadio - Topic Drugs in the Olympics, Hall vs. Hafthor, Crossfit</title>
+            <description> On this week's episode of Iron Radio, the guys talk about the Olympics and drugs, Hall vs Hafthor, Crossfit, and more. </description>
+            <pubDate>Sat, 19 Feb 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/660IronRadio.mp3" length="7915208" type="audio/mpeg" />
+            <guid>Episode660</guid>
+        </item>
+        <item>
+            <title>Episode 659 IronRadio - Topic Winter Olympics, Fitness in Strength Sports</title>
+            <description> On this week's episode of Iron Radio, the guys talk about the Winter Olympics, being fit as it relates to strength sports, and tests for fitness level. </description>
+            <pubDate>Sat, 12 Feb 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/659IronRadio.mp3" length="10108256" type="audio/mpeg" />
+            <guid>Episode659</guid>
+        </item>
+        <item>
             <title>Episode 658 IronRadio - Topic Coaching and Running a Gym</title>
             <description> On this episode of Iron Radio the guys talk about coaching and running a gym in today's world and expand from there. </description>
             <pubDate>Sat, 05 Feb 2022 07:00:00 +0000</pubDate>
