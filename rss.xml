@@ -35,6 +35,22 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 662 IronRadio - Topic Running a Gym, Strength and Muscle Mass, Crossfit Open</title>
+            <description> On this weeks episode with Phil tied up at the Arnold, Jerell and Dr. Mike talk about running a gym, strength and muscle mass and their effect on sports performance, the Crossfit Open, and more. </description>
+            <pubDate>Sat, 05 Mar 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/662IronRadio.mp3" length="27575920" type="audio/mpeg" />
+            <guid>Episode662</guid>
+        </item>
+        <item>
+            <title>Episode 661 IronRadio - Topic USMO Podcast and Matt Vincent, the Arnold, the Olympics</title>
+            <description> On this weeks episode, the guys talk about Phil being on the UMSO podcast with Matt Vincent, the Arnold, the lackluster viewership of the Olympic Games, and much more. </description>
+            <pubDate>Sat, 26 Feb 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/661IronRadio.mp3" length="10369724" type="audio/mpeg" />
+            <guid>Episode661</guid>
+        </item>
+        <item>
             <title>Episode 660 IronRadio - Topic Drugs in the Olympics, Hall vs. Hafthor, Crossfit</title>
             <description> On this week's episode of Iron Radio, the guys talk about the Olympics and drugs, Hall vs Hafthor, Crossfit, and more. </description>
             <pubDate>Sat, 19 Feb 2022 07:00:00 +0000</pubDate>
