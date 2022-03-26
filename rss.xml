@@ -35,6 +35,21 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 664 IronRadio - Topic Hafthor-Hall, Brittney Griner, Crossfit Open</title>
+            <description> On this week's episode, Phil, Dr. Mike and Jerell talk about the Hafthor and Hall fight, world issues with WNBA star Brittney Griner held in Russia, the Crossfit Open, and much more. </description>
+            <pubDate>Sat, 19 Mar 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/664IronRadio.mp3" length="10152212" type="audio/mpeg" />
+            <guid>Episode664</guid>
+        </item>
+            <title>Episode 663 IronRadio - Topic Lonnie's Return and the Arnold</title>
+            <description> On this weeks episode Lonnie joins us on the show. We talk about the Arnold and results from that as well as the events. Then we catch up with Lonnie on what he's been doing and much more. </description>
+            <pubDate>Sat, 12 Mar 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/663IronRadio.mp3" length="9721724" type="audio/mpeg" />
+            <guid>Episode663</guid>
+        </item>
+        <item>
             <title>Episode 662 IronRadio - Topic Running a Gym, Strength and Muscle Mass, Crossfit Open</title>
             <description> On this weeks episode with Phil tied up at the Arnold, Jerell and Dr. Mike talk about running a gym, strength and muscle mass and their effect on sports performance, the Crossfit Open, and more. </description>
             <pubDate>Sat, 05 Mar 2022 07:00:00 +0000</pubDate>
@@ -188,7 +203,7 @@
         </item>
         <item>
             <title>Episode 643 IronRadio</title>
-            <description> </description>
+            <description></description>
             <pubDate>Sat, 18 Sep 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/643IronRadio.mp3" length="40379980" type="audio/mpeg" />
@@ -196,7 +211,7 @@
         </item>
         <item>
             <title>Episode 642 IronRadio</title>
-            <description> </description>
+            <description></description>
             <pubDate>Sat, 11 Sep 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/642IronRadio.mp3" length="21032179" type="audio/mpeg" />
@@ -204,7 +219,7 @@
         </item>
         <item>
             <title>Episode 641 IronRadio</title>
-            <description> </description>
+            <description></description>
             <pubDate>Sat, 04 Sep 2021 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/641IronRadio.mp3" length="23878627" type="audio/mpeg" />
