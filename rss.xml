@@ -35,6 +35,38 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 669 IronRadio - Topic Mike's Special Forces Experience Camp</title>
+            <description> Mike is back from a special forces experience camp. We talk about extreme tests, when and how to use them. </description>
+            <pubDate>Sat, 23 Apr 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/669IronRadio.mp3" length="11701040" type="audio/mpeg" />
+            <guid>Episode669</guid>
+        </item>
+        <item>
+            <title>Episode 668 IronRadio - Topic Phil's Highland Games, StrongFirst Programming, Bodybuilder Dieting</title>
+            <description> Phil's highland games. Jerell's StrongFirst programming cert review, bodybuilder dieing, crossfit and much more. </description>
+            <pubDate>Sat, 16 Apr 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/668IronRadio.mp3" length="8774240" type="audio/mpeg" />
+            <guid>Episode668</guid>
+        </item>
+        <item>
+            <title>Episode 667 IronRadio - Topic Testicular Sunbathing!</title>
+            <description> On this week's Iron Radio, by listener request we talk about sunning your balls!!! And a lot more... </description>
+            <pubDate>Sat, 09 Apr 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/667IronRadio.mp3" length="9790844" type="audio/mpeg" />
+            <guid>Episode667</guid>
+        </item>
+        <item>
+            <title>Episode 666 IronRadio - Topic Phil's Highland Games Prep, Weightlifters and Drug Use, Masters' Weightlifting</title>
+            <description> Phil finds out he's old as he gears up to throw in his first highland games in a few years. More weightlifters are popped for drug use. Jerell starts a weekly tirade about how messed up masters' weightlifting is. Grip training, dealift, and more. </description>
+            <pubDate>Sat, 02 Apr 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/666IronRadio.mp3" length="10654844" type="audio/mpeg" />
+            <guid>Episode666</guid>
+        </item>
+        <item>
             <title>Episode 665 IronRadio - Topic Louie Simmons, Trans Athletes</title>
             <description> On this week's show, we talk about the passing of two people in the world of strength, including legend Louie Simmons. Then we delve into probably the most controversial topic we ever have, trans athletes in sports. </description>
             <pubDate>Sat, 26 Mar 2022 07:00:00 +0000</pubDate>
