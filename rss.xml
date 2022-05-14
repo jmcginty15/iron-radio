@@ -35,6 +35,22 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 671 IronRadio - Topic Kim Kardashian, Crash Diets</title>
+            <description> For the first time ever we talk about Kim Kardashian on Iron Radio as a main topic. Then we segue into crash diets: when they are useful and when they are not. </description>
+            <pubDate>Sat, 07 May 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/671IronRadio.mp3" length="11701040" type="audio/mpeg" />
+            <guid>Episode671</guid>
+        </item>
+        <item>
+            <title>Episode 670 IronRadio - Topic Masters' Nationals, Poorly Run Meets</title>
+            <description> Jerell talks about Masters' Nationals. Phil chimes in on other poorly run meets, strongman, and how people can relate to it better if meet directors choose to let them, and more. </description>
+            <pubDate>Sat, 30 Apr 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/670IronRadio.mp3" length="11701040" type="audio/mpeg" />
+            <guid>Episode670</guid>
+        </item>
+        <item>
             <title>Episode 669 IronRadio - Topic Mike's Special Forces Experience Camp</title>
             <description> Mike is back from a special forces experience camp. We talk about extreme tests, when and how to use them. </description>
             <pubDate>Sat, 23 Apr 2022 07:00:00 +0000</pubDate>
