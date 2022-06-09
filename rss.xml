@@ -35,6 +35,30 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 675 IronRadio - Topic WSM Finals Results, Granite Games</title>
+            <description> On this week's show the guys talk about the World's Strongest Man results, Crossfit/Granite Games, strength endurance vs strength and more. </description>
+            <pubDate>Sat, 04 Jun 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/675IronRadio.mp3" length="9616856" type="audio/mpeg" />
+            <guid>Episode675</guid>
+        </item>
+        <item>
+            <title>Episode 674 IronRadio - Topic WSM Finals Preview, the Strongman GOAT</title>
+            <description> On this week's Iron Radio the guys talk about the upcoming World's Strongest Man finals and delve into that. Who has won the most WSM titles; who is the best ever strongman? How do you narrow down who is the GOAT in a sport? Do you adjust that for the time they lived? </description>
+            <pubDate>Sat, 28 May 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/674IronRadio.mp3" length="10176188" type="audio/mpeg" />
+            <guid>Episode674</guid>
+        </item>
+        <item>
+            <title>Episode 673 IronRadio - Topic Swiss Conference, Shaw Classic, Youth Sports Culture</title>
+            <description> On this week's episode we talk about new, the Swiss conference, the Shaw Classic, and more. Then we take on a listener question about deloading for beginners, then we go down the rabbit hole of physical culture and youth sports and how fucked up it is. </description>
+            <pubDate>Sat, 21 May 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/673IronRadio.mp3" length="8883428" type="audio/mpeg" />
+            <guid>Episode673</guid>
+        </item>
+        <item>
             <title>Episode 672 IronRadio - Topic Atrial Fibrillation, Maximal vs Submaximal Training</title>
             <description> Strength training and atrial fibrillation: does it cause harm? Submaximal and maximal training defined. What are the benefits and drawbacks of maximal training vs submaximal? </description>
             <pubDate>Sat, 14 May 2022 07:00:00 +0000</pubDate>
