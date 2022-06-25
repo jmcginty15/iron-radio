@@ -35,6 +35,22 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 677 IronRadio - Topic SWIS Conference, Trade Portal and College Sports</title>
+            <description> On this week's show Jerell and Phil shoot the shit on the SWIS conference coming to Columbus Ohio. Then the trade portal and NIL money and how it will affect college sports, for better and worse. Strength sports and the environment, now vs then. </description>
+            <pubDate>Sat, 04 Jun 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/677IronRadio.mp3" length="8564736" type="audio/mpeg" />
+            <guid>Episode677</guid>
+        </item>
+        <item>
+            <title>Episode 676 IronRadio - Topic Granite Games, HRV, Larry Wheels' Return to Strongman</title>
+            <description> On this week's show the guys talk about the Granite Games. Lonnie pops over a study about HRV and overreaching. Larry Wheels going to strongman again. The guys explore strongman training, the when and why. </description>
+            <pubDate>Sat, 11 Jun 2022 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/676IronRadio.mp3" length="8626176" type="audio/mpeg" />
+            <guid>Episode676</guid>
+        </item>
+        <item>
             <title>Episode 675 IronRadio - Topic WSM Finals Results, Granite Games</title>
             <description> On this week's show the guys talk about the World's Strongest Man results, Crossfit/Granite Games, strength endurance vs strength and more. </description>
             <pubDate>Sat, 04 Jun 2022 07:00:00 +0000</pubDate>
@@ -51,8 +67,8 @@
             <guid>Episode674</guid>
         </item>
         <item>
-            <title>Episode 673 IronRadio - Topic Swiss Conference, Shaw Classic, Youth Sports Culture</title>
-            <description> On this week's episode we talk about new, the Swiss conference, the Shaw Classic, and more. Then we take on a listener question about deloading for beginners, then we go down the rabbit hole of physical culture and youth sports and how fucked up it is. </description>
+            <title>Episode 673 IronRadio - Topic SWIS Conference, Shaw Classic, Youth Sports Culture</title>
+            <description> On this week's episode we talk about new, the SWIS conference, the Shaw Classic, and more. Then we take on a listener question about deloading for beginners, then we go down the rabbit hole of physical culture and youth sports and how fucked up it is. </description>
             <pubDate>Sat, 21 May 2022 07:00:00 +0000</pubDate>
             <link>https://www.ironradio.org</link>
             <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/673IronRadio.mp3" length="8883428" type="audio/mpeg" />
