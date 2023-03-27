@@ -40,6 +40,18 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 702 IronRadio - Topic Lonnie, Masters' Nationals, Social Media</title>
+            <description> Lonnie joins us, and we talk about Jerell and his lifters going to
+                Masters' Nationals and bringing home two golds. Motivation vs discipline, talented
+                vs average, and more. Then we catch up with Lonnie, which leads us into social media
+                and its effect on lifting sports. </description>
+            <pubDate>Sat, 25 Mar 2023 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/702IronRadio.mp3"
+                length="8589344" type="audio/mpeg" />
+            <guid>Episode702</guid>
+        </item>
+        <item>
             <title>Episode 701 IronRadio - Topic Temperature Treatments, Weight Loss, Recovery, and
                 Rehab</title>
             <description> Phil and Mike cover the broad topics on various types of cold and heat
