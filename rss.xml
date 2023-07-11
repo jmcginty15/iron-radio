@@ -40,6 +40,43 @@
         </itunes:category>
         <itunes:keywords>Health, Fitness, Bodybuilding, Powerlifting, Nutrition</itunes:keywords>
         <item>
+            <title>Episode 706 IronRadio - Topic Coffee, Injury Decisions</title>
+            <description> We discuss coffee as a stimulant, and how to make decisions related to
+                training injuries. </description>
+            <pubDate>Sat, 08 Jul 2023 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/706IronRadio.mp3"
+                length="24860928" type="audio/mpeg" />
+            <guid>Episode706</guid>
+        </item>
+        <item>
+            <title>Episode 705 IronRadio - Topic Unilateral Stimulus</title>
+            <description> We discuss the value of unilateral stimulus in training. </description>
+            <pubDate>Sat, 01 Jul 2023 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/705IronRadio.mp3"
+                length="28303272" type="audio/mpeg" />
+            <guid>Episode705</guid>
+        </item>
+        <item>
+            <title>Episode 704 IronRadio - Topic TRT, Eating Pace</title>
+            <description> We discuss how TRT and eating pace can affect training and nutrition. </description>
+            <pubDate>Sat, 24 Jun 2023 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/704IronRadio.mp3"
+                length="29093472" type="audio/mpeg" />
+            <guid>Episode704</guid>
+        </item>
+        <item>
+            <title>Episode 703 IronRadio - Topic Grading Supplements</title>
+            <description> We grade 12 different supplements supposedly meant to get one "ripped". </description>
+            <pubDate>Sat, 17 Jun 2023 07:00:00 +0000</pubDate>
+            <link>https://www.ironradio.org</link>
+            <enclosure url="https://ironradiostorage.blob.core.windows.net/audio/703IronRadio.mp3"
+                length="20615296" type="audio/mpeg" />
+            <guid>Episode703</guid>
+        </item>
+        <item>
             <title>Episode 702 IronRadio - Topic Lonnie, Masters' Nationals, Social Media</title>
             <description> Lonnie joins us, and we talk about Jerell and his lifters going to
                 Masters' Nationals and bringing home two golds. Motivation vs discipline, talented
